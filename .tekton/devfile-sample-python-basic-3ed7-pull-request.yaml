@@ -170,7 +170,7 @@ spec:
       runAfter:
       - prefetch-dependencies
       taskRef:
-        bundle: quay.io/mkovarik/task-buildah:0.1@sha256:ef88965ddc6deffb08e3d803b3c7db1bf2260b627599b1505ecdd97472cd121d
+        bundle: quay.io/mkovarik/task-buildah:0.1@sha256:28158bbba10b05a2b4683a0c7c7e360b6d5419c258be5d3f86746a5fe6668a3e
         name: buildah
       when:
       - input: $(tasks.init.results.build)
