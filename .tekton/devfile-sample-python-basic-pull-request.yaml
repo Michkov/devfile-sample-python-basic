@@ -14,7 +14,7 @@ metadata:
     appstudio.openshift.io/component: devfile-sample-python-basic
     pipelines.appstudio.openshift.io/type: build
   name: devfile-sample-python-basic-on-pull-request
-  namespace: mkovarik
+  namespace: build-service
 spec:
   params:
   - name: dockerfile
