@@ -149,7 +149,7 @@ spec:
         - name: revision
           value: partner-example
         - name: pathInRepo
-          value: task/hello-world/0.1/hello-world.yaml
+          value: partners/example-hello-world/0.1/example-hello-world.yaml
       runAfter:
       - init
     - name: clone-repository
