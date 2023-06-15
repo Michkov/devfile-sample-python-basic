@@ -1,5 +1,5 @@
 apiVersion: tekton.dev/v1beta1
-kind: PipelineRun
+kind: PipelineRuna
 metadata:
   annotations:
     build.appstudio.openshift.io/repo: https://github.com/Michkov/devfile-sample-python-basic?rev={{revision}}
